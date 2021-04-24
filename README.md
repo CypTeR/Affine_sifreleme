@@ -6,40 +6,15 @@ Bu projede rakamlar arası ilişkiler araştırılmış, özellikle 3 ve 7 rakam
 
 Yöntem
 Bu projede 3 ve 7 rakamlarının  katlarının mod 10 daki değerlerinin farklı rakamlara karşılık gediği  fark edilmiş ve bu özellikleri şifrelemede kullanılmıştır. 
-x	0	1	2	3	4	5	6	7	8	9
-3x	0	3	6	9	12	15	18	21	24	27
-mod10	0	3	6	9	2	5	8	1	4	7
+![image](https://user-images.githubusercontent.com/29151932/115942470-1dbda080-a4b3-11eb-8a09-859a7d37a8c6.png)
 
 
-x	0	1	2	3	4	5	6	7	8	9
-7x	0	7	14	21	28	35	42	49	56	63
-mod10	0	7	4	1	8	5	2	9	6	3
 
-Şifrenin kırılmasını zorlaştırmak için şifrenin her sırası için bir döngü oluşturulmuştur. 3 ve 7 için oluşturulan döngülerde aynı satırların farklı döngülerde olduğu görülmüş ve bu özelliğin çözümlemede kullanılabileği düşünülmüştür. 
+![image](https://user-images.githubusercontent.com/29151932/115942479-2ada8f80-a4b3-11eb-9961-f9457f252ceb.png)
 
-0	1	2	3	4	5	6	7	8	9
-0	7	4	1	8	5	2	9	6	3
-1	8	5	2	9	6	3	0	7	4
-2	9	6	3	0	7	4	1	8	5
-3	0	7	4	1	8	5	2	9	6
-4	1	8	5	2	9	6	3	0	7
-5	2	9	6	3	0	7	4	1	8
-6	3	0	7	3	1	8	5	2	9
-7	4	1	8	4	2	9	6	3	0
-8	5	2	9	5	3	0	7	4	1
-9	6	3	0	6	4	1	8	5	2
+Şifrenin kırılmasını zorlaştırmak için şifrenin her sırası için bir döngü oluşturulmuştur. 3 ve 7 için oluşturulan döngülerde aynı satırların farklı döngülerde olduğu görülmüş ve bu özelliğin çözümlemede kullanılabileceği düşünülmüştür. 
 
-0	1	2	3	4	5	6	7	8	9
-0	3	6	9	2	5	8	1	4	7
-1	4	7	0	3	6	9	2	5	8
-2	5	8	1	4	7	0	3	6	9
-3	6	9	2	5	8	1	4	7	0
-4	7	0	3	6	9	2	5	8	1
-5	8	1	4	7	0	3	6	9	2
-6	9	2	5	8	1	4	7	0	3
-7	0	3	6	9	2	5	8	1	4
-8	1	4	7	0	3	6	9	2	5
-9	2	5	8	1	4	7	0	3	6
+![image](https://user-images.githubusercontent.com/29151932/115942510-50679900-a4b3-11eb-9a50-894fb7df544f.png)
 
 	Sırasındakiler 1. Döngü   
 f(x)=7x+1  (mod10)
